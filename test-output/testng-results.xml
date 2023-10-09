@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-09T19:42:29 IST" name="Default suite" finished-at="2023-10-09T19:43:03 IST" duration-ms="34853">
+    <groups>
+    </groups>
+    <test started-at="2023-10-09T19:42:29 IST" name="Default test" finished-at="2023-10-09T19:43:03 IST" duration-ms="34853">
+      <class name="Classes.LoginTestNG">
+        <test-method signature="LaunchButton()[pri:0, instance:Classes.LoginTestNG@29f0802c]" started-at="2023-10-09T19:42:29 IST" name="LaunchButton" finished-at="2023-10-09T19:42:49 IST" duration-ms="20258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchButton -->
+        <test-method signature="MainLaunchButton()[pri:0, instance:Classes.LoginTestNG@29f0802c]" started-at="2023-10-09T19:42:49 IST" name="MainLaunchButton" finished-at="2023-10-09T19:42:56 IST" duration-ms="7320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MainLaunchButton -->
+        <test-method signature="HomeLaunch()[pri:0, instance:Classes.LoginTestNG@29f0802c]" started-at="2023-10-09T19:42:56 IST" name="HomeLaunch" finished-at="2023-10-09T19:43:00 IST" depends-on-methods="Classes.LoginTestNG.MainLaunchButton" duration-ms="3696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomeLaunch -->
+        <test-method signature="MovieLaunch()[pri:0, instance:Classes.LoginTestNG@29f0802c]" started-at="2023-10-09T19:43:00 IST" name="MovieLaunch" finished-at="2023-10-09T19:43:03 IST" depends-on-methods="Classes.LoginTestNG.HomeLaunch" duration-ms="3413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MovieLaunch -->
+        <test-method signature="subTrailLaunch()[pri:0, instance:Classes.LoginTestNG@29f0802c]" started-at="2023-10-09T19:43:03 IST" name="subTrailLaunch" finished-at="2023-10-09T19:43:03 IST" depends-on-methods="Classes.LoginTestNG.MovieLaunch" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subTrailLaunch -->
+      </class> <!-- Classes.LoginTestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
